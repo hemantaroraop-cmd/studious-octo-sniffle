@@ -231,8 +231,7 @@ def handle_requests():
                 ("status", status),
                 ("daily_limit", daily_limit),
                 ("used", used_count),
-                ("remaining", remaining),
-                ("owner", @Batmanxd)
+                ("remaining", remaining)
             ])
 
             return app.response_class(
