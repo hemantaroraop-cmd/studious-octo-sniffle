@@ -228,6 +228,7 @@ def handle_requests():
                 ("Level", after.AccountInfo.Levels),
                 ("Region", after.AccountInfo.PlayerRegion),
                 ("UID", after.AccountInfo.UID),
+                ("Owner" , @Batmanxd),
                 ("status", status),
                 ("daily_limit", daily_limit),
                 ("used", used_count),
