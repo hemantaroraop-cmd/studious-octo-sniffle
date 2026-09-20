@@ -224,7 +224,7 @@ def handle_requests():
                 ("LikesbeforeCommand", before_like),
                 ("LikesafterCommand", after_like),
                 ("LikesGiven", like_given),
-                ("Owner" @Batmanxd),
+                ("Owner", @Batmanxd),
                 ("PlayerNickname", after.AccountInfo.PlayerNickname),
                 ("Level", after.AccountInfo.Levels),
                 ("Region", after.AccountInfo.PlayerRegion),
